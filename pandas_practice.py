@@ -60,7 +60,7 @@
 # print(data2.str.contains("好")) #判斷每個字串是否包含特定的字元
 # print(data2.str.replace("您好", "Hello")) #字串取代
 
-
+#註解
 #篩選資料 condition
 #引入pandas模組
 import pandas as pd
