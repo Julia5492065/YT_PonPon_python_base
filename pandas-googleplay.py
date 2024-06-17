@@ -21,6 +21,7 @@ data=pd.read_csv("googleplaystore.csv")
 # condition=data["Installs"]>100000
 # print("安裝數量大於 100000 的應用程式有幾個: ", data[condition].shape[0])
 
+#註解
 #基於資料的應用:關鍵字搜尋應用程式名稱
 keyword=input("請輸入關鍵字: ")
 condition=data["App"].str.contains(keyword, case=False) #忽略大小寫:case=False
